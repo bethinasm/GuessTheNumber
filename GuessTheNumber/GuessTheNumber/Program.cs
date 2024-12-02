@@ -1,4 +1,7 @@
 ﻿
+using System.Threading.Tasks;
+using GuessTheNumber;
+
 Console.WriteLine("Oppgave: Guess the Number");
 /*
     OPPGAVE:
@@ -9,3 +12,6 @@ Console.WriteLine("Oppgave: Guess the Number");
 
     Da skal man få spørsmål om man vil spille på nytt
  */
+
+var Oppgave = new Oppgave();
+Oppgave.Run();
