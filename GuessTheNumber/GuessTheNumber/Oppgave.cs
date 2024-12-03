@@ -59,7 +59,6 @@ namespace GuessTheNumber
         private void CheckIfRunAgain(string userInput)
         {
             switch(userInput)
-
             {
                 case "1":
                     Console.Clear();
